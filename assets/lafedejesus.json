@@ -1,0 +1,782 @@
+[
+    {
+        "_id": "lfdj01",
+        "leccion": "01",
+        "titulo": "LO QUE LA BIBLIA ENSEÑA SOBRE DIOS",
+        "preguntas": [
+            {
+                "id": 1,
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
+                "video": "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4",
+                "versiculo": "Efesios 4:6",
+                "verso": "",
+                "prg": "¿CUÁNTOS DIOSES HAY?",
+                "rpt": ""
+            },
+            {
+                "id": 2,
+                "audio": "",
+                "video": "",
+                "versiculo": "S. Juan 4:24",
+                "verso": "",
+                "prg": "¿CUÁL ES LA NATURALEZA DE DIOS?",
+                "rpt": ""
+            },
+            {
+                "id": 3,
+                "audio": "",
+                "video": "",
+                "versiculo": "2 Corintios 13:14",
+                "verso": "",
+                "prg": "¿CUÁLES SON LAS TRES PERSONAS DE LA TRINIDAD?",
+                "rpt": ""
+            },
+            {
+                "id": 4,
+                "audio": "",
+                "video": "",
+                "versiculo": "1 Juan 4:8",
+                "verso": "",
+                "prg": "¿CÓMO ES EL CARÁCTER DE DIOS?",
+                "rpt": ""
+            },
+            {
+                "id": 5,
+                "audio": "",
+                "video": "",
+                "versiculo": "1 Juan 3:1,2",
+                "verso": "",
+                "prg": "¿CÓMO NOS CONSIDERA DIOS?",
+                "rpt": ""
+            },
+            {
+                "id": 6,
+                "audio": "",
+                "video": "",
+                "versiculo": "Salmos 40:1-3",
+                "verso": "",
+                "prg": "¿SE PREOCUPA DIOS POR NUESTROS PROBLEMAS?",
+                "rpt": ""
+            }
+        ],
+        "subtitulo": [
+            {
+                "id": 1,
+                "preguntas": [
+                    {
+                        "id": 1
+                    }
+                ],
+                "subtitulo": "DIOS"
+            },
+            {
+                "id": 2,
+                "preguntas": 1,
+                "subtitulo": "DIOS Y EL HOMBRE"
+            }
+        ],
+        "hacer": [
+            {
+                "id": 1,
+                "audio": "",
+                "video": "",
+                "versiculo": "Exodo 20:7",
+                "verso": "",
+                "prg": "RESPETAR EL NOMBRE DE DIOS",
+                "rpt": 0
+            },
+            {
+                "id": 2,
+                "audio": "",
+                "video": "",
+                "versiculo": "Hechos 5:29",
+                "verso": "",
+                "prg": "OBEDECER A DIOS",
+                "rpt": 0
+            },
+            {
+                "id": 3,
+                "audio": "",
+                "video": "",
+                "versiculo": "S. Mateo 6:33",
+                "verso": "",
+                "prg": "PONER A DIOS EN PRIMER LUGAR",
+                "rpt": 0
+            },
+            {
+                "id": 4,
+                "audio": "",
+                "video": "",
+                "versiculo": "S. Mateo 22:37",
+                "verso": "",
+                "prg": "AMAR A DIOS DE TODO CORAZÓN",
+                "rpt": 0
+            }
+        ],
+        "adicional": []
+    },
+    {
+        "_id": "lfdj02",
+        "leccion": "02",
+        "titulo": "LA SANTA BIBLIA",
+        "preguntas": [
+            {
+                "id": 1,
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "",
+                "versover": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "hacer": [
+            {
+                "id": 1,
+                "audio": "",
+                "video": "",
+                "versiculo": "",
+                "verso": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "adicional": []
+    },
+    {
+        "_id": "lfdj03",
+        "leccion": "03",
+        "titulo": "LA ORACION Y LA FE",
+        "preguntas": [
+            {
+                "id": 1,
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "",
+                "versover": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "hacer": [
+            {
+                "id": 1,
+                "audio": "",
+                "video": "",
+                "versiculo": "",
+                "verso": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "adicional": []
+    },
+    {
+        "_id": "lfdj04",
+        "leccion": "04",
+        "titulo": "EL REGRESO DE CRISTO",
+        "preguntas": [
+            {
+                "id": 1,
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "",
+                "versover": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "hacer": [
+            {
+                "id": 1,
+                "audio": "",
+                "video": "",
+                "versiculo": "",
+                "verso": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "adicional": []
+    },
+    {
+        "_id": "lfdj05",
+        "leccion": "05",
+        "titulo": "SEÑALES DEL REGRESO DE CRISTO",
+        "preguntas": [
+            {
+                "id": 1,
+                "subtitulo": "¿CUÁNDO VENDRÁ?",
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "S. Mateo 24:3",
+                "versover": "",
+                "prg": "¿QUÉ PREGUNTARON LOS DISCÍPULOS DE JESÚS?",
+                "rpt": ""
+            },
+            {
+                "id": 2,
+                "subtitulo": "",
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "S. Mateo 24:36",
+                "versover": "",
+                "prg": "¿SE SABE LA FECHA DEL REGRESO DE JESÚS ?",
+                "rpt": ""
+            },
+            {
+                "id": 3,
+                "subtitulo": "CÓMO VENDRÁ JESÚS",
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "1 Tes. 5:1-4",
+                "versover": "",
+                "prg": "¿ESTAMOS EN TINIEBLAS RESPECTO A LA VENIDA DE JESÚS?",
+                "rpt": ""
+            },
+            {
+                "id": 4,
+                "subtitulo": "SEÑALES QUE ANUNCIAN SU REGRESO",
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "S. Mateo 24:6,7",
+                "versover": "",
+                "prg": "¿QUÉ SEÑALES PREDIJO JESÚS?",
+                "rpt": ""
+            },
+            {
+                "id": 5,
+                "subtitulo": "",
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "Santiago 5:1-5",
+                "versover": "",
+                "prg": "¿QUÉ CONDICIONES SOCIALES PREVALECERÍAN?",
+                "rpt": ""
+            },
+            {
+                "id": 6,
+                "subtitulo": "",
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "2 Timoteo 3:1-5",
+                "versover": "",
+                "prg": "¿CUÁL SERÍA LA CONDICIÓN MORAL DE LA HUMANIDAD?",
+                "rpt": ""
+            },
+            {
+                "id": 7,
+                "subtitulo": "",
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "Daniel 12:4",
+                "versover": "",
+                "prg": "¿QUÉ OCURRIRÍA CON LA CIENCIA?",
+                "rpt": ""
+            },
+            {
+                "id": 8,
+                "subtitulo": "",
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "S. Mateo 24:29",
+                "versover": "",
+                "prg": "¿QUÉ SENALES SE VERIAN EN LOS ASTROS?",
+                "rpt": ""
+            }
+        ],
+        "hacer": [
+            {
+                "id": 1,
+                "audio": "",
+                "video": "",
+                "versiculo": "S. Lucas 21:28-31",
+                "verso": "",
+                "prg": "ESTAR ATENTO A LAS SEÑALES DE LOS TIEMPOS",
+                "rpt": ""
+            },
+            {
+                "id": 2,
+                "audio": "",
+                "video": "",
+                "versiculo": "S. Mateo 24:42-44",
+                "verso": "",
+                "prg": "VELAR Y ESTAR APERCIBIDO",
+                "rpt": ""
+            }
+        ],
+        "adicional": []
+    },
+    {
+        "_id": "lfdj06",
+        "leccion": "06",
+        "titulo": "EL ORIGEN DEL PECADO",
+        "preguntas": [
+            {
+                "id": 1,
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "",
+                "versover": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "hacer": [
+            {
+                "id": 1,
+                "audio": "",
+                "video": "",
+                "versiculo": "",
+                "verso": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "adicional": []
+    },
+    {
+        "_id": "lfdj07",
+        "leccion": "07",
+        "titulo": "LA SALVACIÓN",
+        "preguntas": [
+            {
+                "id": 1,
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "",
+                "versover": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "hacer": [
+            {
+                "id": 1,
+                "audio": "",
+                "video": "",
+                "versiculo": "",
+                "verso": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "adicional": []
+    },
+    {
+        "_id": "lfdj08",
+        "leccion": "08",
+        "titulo": "EL PERDON DE LOS PECADOS",
+        "preguntas": [
+            {
+                "id": 1,
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "",
+                "versover": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "hacer": [
+            {
+                "id": 1,
+                "audio": "",
+                "video": "",
+                "versiculo": "",
+                "verso": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "adicional": []
+    },
+    {
+        "_id": "lfdj09",
+        "leccion": "09",
+        "titulo": "EL JUICIO",
+        "preguntas": [
+            {
+                "id": 1,
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "",
+                "versover": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "hacer": [
+            {
+                "id": 1,
+                "audio": "",
+                "video": "",
+                "versiculo": "",
+                "verso": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "adicional": []
+    },
+    {
+        "_id": "lfdj10",
+        "leccion": "10",
+        "titulo": "LA LEY DE DIOS",
+        "preguntas": [
+            {
+                "id": 1,
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "",
+                "versover": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "hacer": [
+            {
+                "id": 1,
+                "audio": "",
+                "video": "",
+                "versiculo": "",
+                "verso": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "adicional": []
+    },
+    {
+        "_id": "lfdj11",
+        "leccion": "11",
+        "titulo": "EL DIA DE DESCANSO",
+        "preguntas": [
+            {
+                "id": 1,
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "",
+                "versover": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "hacer": [
+            {
+                "id": 1,
+                "audio": "",
+                "video": "",
+                "versiculo": "",
+                "verso": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "adicional": []
+    },
+    {
+        "_id": "lfdj12",
+        "leccion": "12",
+        "titulo": "COMO SE DEBE DE GUARDAR EL SÁBADO",
+        "preguntas": [
+            {
+                "id": 1,
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "",
+                "versover": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "hacer": [
+            {
+                "id": 1,
+                "audio": "",
+                "video": "",
+                "versiculo": "",
+                "verso": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "adicional": []
+    },
+    {
+        "_id": "lfdj13",
+        "leccion": "13",
+        "titulo": "¿QUÉ ES LA MUERTE?",
+        "preguntas": [
+            {
+                "id": 1,
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "",
+                "versover": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "hacer": [
+            {
+                "id": 1,
+                "audio": "",
+                "video": "",
+                "versiculo": "",
+                "verso": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "adicional": []
+    },
+    {
+        "_id": "lfdj14",
+        "leccion": "14",
+        "titulo": "LA IGLESIA DE CRISTO",
+        "preguntas": [
+            {
+                "id": 1,
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "",
+                "versover": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "hacer": [
+            {
+                "id": 1,
+                "audio": "",
+                "video": "",
+                "versiculo": "",
+                "verso": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "adicional": []
+    },
+    {
+        "_id": "lfdj15",
+        "leccion": "15",
+        "titulo": "EL DON DE PROFECÍA",
+        "preguntas": [
+            {
+                "id": 1,
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "",
+                "versover": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "hacer": [
+            {
+                "id": 1,
+                "audio": "",
+                "video": "",
+                "versiculo": "",
+                "verso": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "adicional": []
+    },
+    {
+        "_id": "lfdj16",
+        "leccion": "16",
+        "titulo": "LAS NORMAS CRISTIANAS",
+        "preguntas": [
+            {
+                "id": 1,
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "",
+                "versover": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "hacer": [
+            {
+                "id": 1,
+                "audio": "",
+                "video": "",
+                "versiculo": "",
+                "verso": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "adicional": []
+    },
+    {
+        "_id": "lfdj17",
+        "leccion": "17",
+        "titulo": "EL BAUTISMO",
+        "preguntas": [
+            {
+                "id": 1,
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "",
+                "versover": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "hacer": [
+            {
+                "id": 1,
+                "audio": "",
+                "video": "",
+                "versiculo": "",
+                "verso": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "adicional": []
+    },
+    {
+        "_id": "lfdj18",
+        "leccion": "18",
+        "titulo": "SOCIOS DE DIOS",
+        "preguntas": [
+            {
+                "id": 1,
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "",
+                "versover": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "hacer": [
+            {
+                "id": 1,
+                "audio": "",
+                "video": "",
+                "versiculo": "",
+                "verso": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "adicional": []
+    },
+    {
+        "_id": "lfdj19",
+        "leccion": "19",
+        "titulo": "LA VIDA CRISTIANA",
+        "preguntas": [
+            {
+                "id": 1,
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "",
+                "versover": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "hacer": [
+            {
+                "id": 1,
+                "audio": "",
+                "video": "",
+                "versiculo": "",
+                "verso": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "adicional": []
+    },
+    {
+        "_id": "lfdj20",
+        "leccion": "20",
+        "titulo": "DIOS NOS LLAMA",
+        "preguntas": [
+            {
+                "id": 1,
+                "nomaudio": "",
+                "audio": "",
+                "nomvideo": "",
+                "video": "",
+                "versiculo": "",
+                "versover": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "hacer": [
+            {
+                "id": 1,
+                "audio": "",
+                "video": "",
+                "versiculo": "",
+                "verso": "",
+                "prg": "",
+                "rpt": ""
+            }
+        ],
+        "adicional": []
+    }
+]
