@@ -18,7 +18,7 @@ class _LeccionView extends State<LeccionView> {
   String ado = "Audio";
 
   Future<String> _cargarJson() async {
-    return await rootBundle.loadString("assets/lafedejesus.json");
+    return await rootBundle.loadString("assets/db.json");
   }
 
   Future<Null> _cargarDatos() async {
@@ -51,7 +51,8 @@ class _LeccionView extends State<LeccionView> {
           color: color4,
         ),
       ),
-      body: SingleChildScrollView(
+      body: Container(child: ListView.builder()),
+      /*body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             /*Container(
@@ -67,7 +68,7 @@ class _LeccionView extends State<LeccionView> {
             //Text(ls.toString())
           ],
         ),
-      ),
+      ),*/
     );
   }
 
