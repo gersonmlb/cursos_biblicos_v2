@@ -2,7 +2,7 @@ import 'package:lafedejesus/utils/imports.dart';
 import 'package:lafedejesus/view/prueba2.dart';
 import 'package:lafedejesus/view/pruebas.dart';
 
-void showAlertDialogVersiculo(BuildContext context, int id, String versiculo) {
+void showAlertDialogVersiculo(BuildContext context, int id,String vers, String verv) {
   showDialog(
       context: context,
       builder: (buildcontext) {
@@ -11,7 +11,7 @@ void showAlertDialogVersiculo(BuildContext context, int id, String versiculo) {
             child: Row(
               children: <Widget>[
                 Text(
-                  versiculo,
+                  vers,
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.w800,
@@ -44,7 +44,7 @@ void showAlertDialogVersiculo(BuildContext context, int id, String versiculo) {
           ),
           content: Container(
             child: Text(
-              "Y estando él sentado en el monte de los Olivos, los discípulos se le acercaron aparte, diciendo: Dinos, ¿cuándo serán estas cosas, y qué señal habrá de tu venida, y del fin del siglo?",
+              verv,
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.w100,
@@ -72,7 +72,7 @@ void showAlertDialogVersiculo(BuildContext context, int id, String versiculo) {
       });
 }
 
-void showAlertDialogVideo(BuildContext context, ){//int id, String video) {
+void showAlertDialogVideo(BuildContext context, String video){//int id, String video) {
   showDialog(
       context: context,
       builder: (buildcontext) {
@@ -93,8 +93,8 @@ void showAlertDialogVideo(BuildContext context, ){//int id, String video) {
             borderRadius: BorderRadius.circular(10.0),
           ),
           content: Container(
-            child: VideoPlayerScreen(),
-            height:300
+            child: VideoPlayerScreen(linkVideo: video,),
+            height:400,
           ),
           actions: <Widget>[
             RaisedButton(
@@ -133,7 +133,7 @@ void showAlertDialogAudio(BuildContext context, int id, String audio) {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(10.0),
           ),
-          content:Container(child: ChewieAudioDemo(), height: 20,),
+          content:Container(child: ChewieAudioDemo(linkAudio: audio,), height: 20,),
           actions: <Widget>[
             RaisedButton(
               child: Text(

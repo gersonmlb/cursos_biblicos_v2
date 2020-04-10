@@ -6,111 +6,113 @@
         "preguntas": [
             {
                 "id": 1,
+                "subtitulo": "¿CUÁNDO VENDRÁ?",
+                "nomaudio": "",
                 "audio": "https://www.w3schools.com/tags/horse.mp3",
+                "nomvideo": "",
                 "video": "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4",
                 "versiculo": "Efesios 4:6",
-                "verso": "",
+                "versover": "6. Un Dios y Padre de todos, el cual es sobre todos, y por todos, y en todos.",
                 "prg": "¿CUÁNTOS DIOSES HAY?",
                 "rpt": ""
             },
             {
                 "id": 2,
-                "audio": "",
+                "subtitulo": "",
+                "nomaudio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
+                "nomvideo": "",
                 "video": "",
                 "versiculo": "S. Juan 4:24",
-                "verso": "",
+                "versover": "",
                 "prg": "¿CUÁL ES LA NATURALEZA DE DIOS?",
                 "rpt": ""
             },
             {
                 "id": 3,
-                "audio": "",
+                "subtitulo": "",
+                "nomaudio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
+                "nomvideo": "",
                 "video": "",
                 "versiculo": "2 Corintios 13:14",
-                "verso": "",
+                "versover": "",
                 "prg": "¿CUÁLES SON LAS TRES PERSONAS DE LA TRINIDAD?",
                 "rpt": ""
             },
             {
                 "id": 4,
-                "audio": "",
+                "subtitulo": "",
+                "nomaudio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
+                "nomvideo": "",
                 "video": "",
                 "versiculo": "1 Juan 4:8",
-                "verso": "",
+                "versover": "",
                 "prg": "¿CÓMO ES EL CARÁCTER DE DIOS?",
                 "rpt": ""
             },
             {
                 "id": 5,
-                "audio": "",
+                "subtitulo": "",
+                "nomaudio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
+                "nomvideo": "",
                 "video": "",
                 "versiculo": "1 Juan 3:1,2",
-                "verso": "",
+                "versover": "",
                 "prg": "¿CÓMO NOS CONSIDERA DIOS?",
                 "rpt": ""
             },
             {
                 "id": 6,
-                "audio": "",
+                "subtitulo": "",
+                "nomaudio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
+                "nomvideo": "",
                 "video": "",
                 "versiculo": "Salmos 40:1-3",
-                "verso": "",
+                "versover": "",
                 "prg": "¿SE PREOCUPA DIOS POR NUESTROS PROBLEMAS?",
                 "rpt": ""
-            }
-        ],
-        "subtitulo": [
-            {
-                "id": 1,
-                "preguntas": [
-                    {
-                        "id": 1
-                    }
-                ],
-                "subtitulo": "DIOS"
-            },
-            {
-                "id": 2,
-                "preguntas": 1,
-                "subtitulo": "DIOS Y EL HOMBRE"
             }
         ],
         "hacer": [
             {
                 "id": 1,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "Exodo 20:7",
                 "verso": "",
                 "prg": "RESPETAR EL NOMBRE DE DIOS",
-                "rpt": 0
+                "rpt": ""
             },
             {
                 "id": 2,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "Hechos 5:29",
                 "verso": "",
                 "prg": "OBEDECER A DIOS",
-                "rpt": 0
+                "rpt": ""
             },
             {
                 "id": 3,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "S. Mateo 6:33",
                 "verso": "",
                 "prg": "PONER A DIOS EN PRIMER LUGAR",
-                "rpt": 0
+                "rpt": ""
             },
             {
                 "id": 4,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "S. Mateo 22:37",
                 "verso": "",
                 "prg": "AMAR A DIOS DE TODO CORAZÓN",
-                "rpt": 0
+                "rpt": ""
             }
         ],
         "adicional": []
@@ -123,7 +125,7 @@
             {
                 "id": 1,
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "",
@@ -135,7 +137,7 @@
         "hacer": [
             {
                 "id": 1,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "",
                 "verso": "",
@@ -153,7 +155,7 @@
             {
                 "id": 1,
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "",
@@ -165,7 +167,7 @@
         "hacer": [
             {
                 "id": 1,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "",
                 "verso": "",
@@ -183,7 +185,7 @@
             {
                 "id": 1,
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "",
@@ -195,7 +197,7 @@
         "hacer": [
             {
                 "id": 1,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "",
                 "verso": "",
@@ -214,103 +216,103 @@
                 "id": 1,
                 "subtitulo": "¿CUÁNDO VENDRÁ?",
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "S. Mateo 24:3",
                 "versover": "",
                 "prg": "¿QUÉ PREGUNTARON LOS DISCÍPULOS DE JESÚS?",
-                "rpt": ""
+                "rpt": "Cuales serian las señales de su venida"
             },
             {
                 "id": 2,
                 "subtitulo": "",
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "S. Mateo 24:36",
                 "versover": "",
                 "prg": "¿SE SABE LA FECHA DEL REGRESO DE JESÚS ?",
-                "rpt": ""
+                "rpt": "Ni Dios ni los angeles los saben, solo el padre que esta en los cielos"
             },
             {
                 "id": 3,
                 "subtitulo": "CÓMO VENDRÁ JESÚS",
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "1 Tes. 5:1-4",
                 "versover": "",
                 "prg": "¿ESTAMOS EN TINIEBLAS RESPECTO A LA VENIDA DE JESÚS?",
-                "rpt": ""
+                "rpt": "No, porque si se sabe las señales que habran cuando él venga"
             },
             {
                 "id": 4,
                 "subtitulo": "SEÑALES QUE ANUNCIAN SU REGRESO",
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "S. Mateo 24:6,7",
                 "versover": "",
                 "prg": "¿QUÉ SEÑALES PREDIJO JESÚS?",
-                "rpt": ""
+                "rpt": "Pestes, guerras, señales en la luna y el sol, y en todo el planeta"
             },
             {
                 "id": 5,
                 "subtitulo": "",
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "Santiago 5:1-5",
                 "versover": "",
                 "prg": "¿QUÉ CONDICIONES SOCIALES PREVALECERÍAN?",
-                "rpt": ""
+                "rpt": "Ninguna condicion social "
             },
             {
                 "id": 6,
                 "subtitulo": "",
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "2 Timoteo 3:1-5",
                 "versover": "",
                 "prg": "¿CUÁL SERÍA LA CONDICIÓN MORAL DE LA HUMANIDAD?",
-                "rpt": ""
+                "rpt": "El amor de muchos de acabara"
             },
             {
                 "id": 7,
                 "subtitulo": "",
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "Daniel 12:4",
                 "versover": "",
                 "prg": "¿QUÉ OCURRIRÍA CON LA CIENCIA?",
-                "rpt": ""
+                "rpt": "La ciencia aumentara"
             },
             {
                 "id": 8,
                 "subtitulo": "",
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "S. Mateo 24:29",
                 "versover": "",
                 "prg": "¿QUÉ SENALES SE VERIAN EN LOS ASTROS?",
-                "rpt": ""
+                "rpt": "La luna se apagara, y las estrellas caeran"
             }
         ],
         "hacer": [
             {
                 "id": 1,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "S. Lucas 21:28-31",
                 "verso": "",
@@ -319,7 +321,7 @@
             },
             {
                 "id": 2,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "S. Mateo 24:42-44",
                 "verso": "",
@@ -337,7 +339,7 @@
             {
                 "id": 1,
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "",
@@ -349,7 +351,7 @@
         "hacer": [
             {
                 "id": 1,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "",
                 "verso": "",
@@ -367,7 +369,7 @@
             {
                 "id": 1,
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "",
@@ -379,7 +381,7 @@
         "hacer": [
             {
                 "id": 1,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "",
                 "verso": "",
@@ -397,7 +399,7 @@
             {
                 "id": 1,
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "",
@@ -409,7 +411,7 @@
         "hacer": [
             {
                 "id": 1,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "",
                 "verso": "",
@@ -427,7 +429,7 @@
             {
                 "id": 1,
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "",
@@ -439,7 +441,7 @@
         "hacer": [
             {
                 "id": 1,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "",
                 "verso": "",
@@ -457,7 +459,7 @@
             {
                 "id": 1,
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "",
@@ -469,7 +471,7 @@
         "hacer": [
             {
                 "id": 1,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "",
                 "verso": "",
@@ -487,7 +489,7 @@
             {
                 "id": 1,
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "",
@@ -499,7 +501,7 @@
         "hacer": [
             {
                 "id": 1,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "",
                 "verso": "",
@@ -517,7 +519,7 @@
             {
                 "id": 1,
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "",
@@ -529,7 +531,7 @@
         "hacer": [
             {
                 "id": 1,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "",
                 "verso": "",
@@ -547,7 +549,7 @@
             {
                 "id": 1,
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "",
@@ -559,7 +561,7 @@
         "hacer": [
             {
                 "id": 1,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "",
                 "verso": "",
@@ -577,7 +579,7 @@
             {
                 "id": 1,
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "",
@@ -589,7 +591,7 @@
         "hacer": [
             {
                 "id": 1,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "",
                 "verso": "",
@@ -607,7 +609,7 @@
             {
                 "id": 1,
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "",
@@ -619,7 +621,7 @@
         "hacer": [
             {
                 "id": 1,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "",
                 "verso": "",
@@ -637,7 +639,7 @@
             {
                 "id": 1,
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "",
@@ -649,7 +651,7 @@
         "hacer": [
             {
                 "id": 1,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "",
                 "verso": "",
@@ -667,7 +669,7 @@
             {
                 "id": 1,
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "",
@@ -679,7 +681,7 @@
         "hacer": [
             {
                 "id": 1,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "",
                 "verso": "",
@@ -697,7 +699,7 @@
             {
                 "id": 1,
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "",
@@ -709,7 +711,7 @@
         "hacer": [
             {
                 "id": 1,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "",
                 "verso": "",
@@ -727,7 +729,7 @@
             {
                 "id": 1,
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "",
@@ -739,7 +741,7 @@
         "hacer": [
             {
                 "id": 1,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "",
                 "verso": "",
@@ -757,7 +759,7 @@
             {
                 "id": 1,
                 "nomaudio": "",
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
                 "video": "",
                 "versiculo": "",
@@ -769,7 +771,7 @@
         "hacer": [
             {
                 "id": 1,
-                "audio": "",
+                "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "video": "",
                 "versiculo": "",
                 "verso": "",

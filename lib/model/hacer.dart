@@ -23,8 +23,8 @@ class Hacer {
         video: parsedJson['video'],
         versiculo: parsedJson['versiculo'],
         verso: parsedJson['verso'],
-        pregunta: parsedJson['pregunta'],
-        respuesta: parsedJson['respuesta']);
+        pregunta: parsedJson['prg'],
+        respuesta: parsedJson['rpt']);
   }
 
   Map<String, dynamic> toJson() {
@@ -34,8 +34,8 @@ class Hacer {
       'video': video,
       'versiculo': versiculo,
       'verso': verso,
-      'pregunta': pregunta,
-      'respuesta': respuesta
+      'prg': pregunta,
+      'rpt': respuesta
     };
 
     return map;

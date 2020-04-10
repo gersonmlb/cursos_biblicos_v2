@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
 class VideoPlayerScreen extends StatefulWidget {
-  VideoPlayerScreen({Key key}) : super(key: key);
+  final String linkVideo;
+  VideoPlayerScreen({this.linkVideo}) : super();
 
   @override
   _VideoPlayerScreenState createState() => _VideoPlayerScreenState();
@@ -16,9 +17,15 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
 
   @override
   void initState() {
-    _controller = VideoPlayerController.network(
-      'https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4',
-    );
+    if ("${widget.linkVideo}" == "") {
+      print("No tiene nada");
+      _controller = VideoPlayerController.network(
+        'https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4',
+      );
+    } else {
+      print("SI llego");
+      _controller = VideoPlayerController.network("${widget.linkVideo}");
+    }
 
     _initializeVideoPlayerFuture = _controller.initialize();
 
@@ -39,7 +46,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
     return Container(
         // AQUI VA A TENER QUE SER CAMBIADO POR EL WIDTH Y HEIGTH
         width: 300,
-        height: 300,
+        height: 600,
         child: Column(children: <Widget>[
           FutureBuilder(
             future: _initializeVideoPlayerFuture,
@@ -54,19 +61,22 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
               }
             },
           ),
-          FloatingActionButton(
-            mini: true,
-            onPressed: () {
-              setState(() {
-                if (_controller.value.isPlaying) {
-                  _controller.pause();
-                } else {
-                  _controller.play();
-                }
-              });
-            },
-            child: Icon(
-              _controller.value.isPlaying ? Icons.pause : Icons.play_arrow,
+          Padding(
+            padding: const EdgeInsets.only(top:20),
+            child: FloatingActionButton(
+              mini: true,
+              onPressed: () {
+                setState(() {
+                  if (_controller.value.isPlaying) {
+                    _controller.pause();
+                  } else {
+                    _controller.play();
+                  }
+                });
+              },
+              child: Icon(
+                _controller.value.isPlaying ? Icons.pause : Icons.play_arrow,
+              ),
             ),
           ),
         ]));

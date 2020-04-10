@@ -1,20 +1,19 @@
 import 'package:lafedejesus/utils/imports.dart';
 
-/*Future<String> _cargarJson() async {
-  return await rootBundle.loadString("assets/lafedejesus.json");
+Future<String> _cargarJson() async {
+  return await rootBundle.loadString("assets/db.json");
 }
 
-Future<Null> cargarDatos(List<Leccion> lista) async {
+Future<ListaDatos> cargarDatos() async {
   String jsonString = await _cargarJson();
   final jsonResponse = json.decode(jsonString);
+  return ListaDatos.fromJson(jsonResponse);
+}
 
-  for(Map i in jsonResponse){
-    lista.add(Leccion.fromJson(i));
-  }
-  return lista;
-  /*String jsonString = await _cargarJson();
+/*Future<Leccion> cargarDatos2() async {
+  String jsonString = await _cargarJson();
   final jsonResponse = json.decode(jsonString);
-  return ListaDatos.fromJson(jsonResponse);*/
+  return Leccion.fromJson(jsonResponse);
 }*/
 /*
 Future loadCrossword() async {

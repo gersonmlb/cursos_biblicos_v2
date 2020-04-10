@@ -31,20 +31,22 @@ class Preguntas {
         nomvideo: parsedJson['nomvideo'],
         video: parsedJson['video'],
         versiculo: parsedJson['versiculo'],
-        verso: parsedJson['verso'],
-        pregunta: parsedJson['pregunta'],
-        respuesta: parsedJson['respuesta']);
+        verso: parsedJson['versover'],
+        pregunta: parsedJson['prg'],
+        respuesta: parsedJson['rpt']);
   }
-
   Map<String, dynamic> toJson() {
     var map = <String, dynamic>{
       'id': id,
+      'subtitulo' : subtitulo,
+      'nomaudio' : nomaudio,
       'audio': audio,
+      'nomvideo' : nomvideo,
       'video': video,
       'versiculo': versiculo,
-      'verso': verso,
-      'pregunta': pregunta,
-      'respuesta': respuesta
+      'versover': verso,
+      'prg': pregunta,
+      'rpt': respuesta
     };
 
     return map;

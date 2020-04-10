@@ -6,9 +6,7 @@ class LeccionView extends StatefulWidget {
 }
 
 class _LeccionView extends State<LeccionView> {
-  List<Leccion> _lista = [];
-  /*List<ListaDatos> lista;
-  Future<dynamic> ls;*/
+  Future<ListaDatos> _lista;
   int number = 4;
 
   // Son datos de pruebas
@@ -17,23 +15,10 @@ class _LeccionView extends State<LeccionView> {
   String vdo = "Video";
   String ado = "Audio";
 
-  Future<String> _cargarJson() async {
-    return await rootBundle.loadString("assets/db.json");
-  }
-
-  Future<Null> _cargarDatos() async {
-    String jsonString = await _cargarJson();
-    final jsonResponse = json.decode(jsonString);
-
-    for (Map i in jsonResponse) {
-      _lista.add(Leccion.fromJson(i));
-    }
-  }
-
   @override
   void initState() {
     super.initState();
-    _cargarDatos();
+    _lista = cargarDatos();
   }
 
   double height, width;
@@ -44,32 +29,18 @@ class _LeccionView extends State<LeccionView> {
     width = MediaQuery.of(context).size.width;
 
     return Scaffold(
-      appBar: AppBar(
-        //flexibleSpace: _truehead(),
-        backgroundColor: Colors.transparent,
-        iconTheme: IconThemeData(
-          color: color4,
+        appBar: AppBar(
+          flexibleSpace: _truehead(),
+          backgroundColor: Colors.transparent,
+          iconTheme: IconThemeData(
+            color: color4,
+          ),
         ),
-      ),
-      body: Container(child: ListView.builder()),
-      /*body: SingleChildScrollView(
-        child: Column(
-          children: <Widget>[
-            /*Container(
-              child: body(context, width, 1, prt, vrs, vdo, ado, height, lista),
-              width: width,
-              //color: Colors.green,
-            ),*/
-            /*Container(
-              child: body(context, width, 1, prt, vrs, vdo, ado, height, lista),
-              width: width,
-              //color: Colors.red,
-            ),*/
-            //Text(ls.toString())
-          ],
-        ),
-      ),*/
-    );
+        body: Container(
+          child: body(context, width, height, 0, _lista),
+          width: width,
+          height: height,
+          ));
   }
 
   Widget _truehead() => Container(

@@ -28,6 +28,22 @@ class AppData {
       };
 }
 
+
+Future<Null> _cargarJson() async {
+    return await rootBundle.loadString("assets/db.json");
+  }
+
+  Future<Null> _cargarDatos() async {
+    String jsonString = await _cargarJson();
+    final jsonResponse = json.decode(jsonString);
+
+    for (Map i in jsonResponse) {
+      _lista.add(Leccion.fromJson(i));
+    }
+    return _lista;
+  }
+
+
 */
 import 'package:lafedejesus/utils/imports.dart';
 
@@ -38,15 +54,31 @@ class ListaDatos {
   ListaDatos({this.dato, this.prg});
 
   factory ListaDatos.fromJson(List<dynamic> parsedJson) {
-    Map one = parsedJson[0];
-
+    
     List<Leccion> data = new List<Leccion>();
     data = parsedJson.map((i) => Leccion.fromJson(i)).toList();
 
-    List<Preguntas> prgs = new List<Preguntas>();
+    List ssds = data[4].preguntas;
+    List<Preguntas> listaPreguntass = new List<Preguntas>();
+    listaPreguntass = ssds.map((i)=> Preguntas.fromJson(i)).toList();
+    /*String ssdass = ssds.length.toString();
+    print("SSDS " + ssdass);
+    print(listaPreguntass);*/
+
+    /*
+    List<Preguntas> listaPreguntas = new List<Preguntas>();
+    for (var word in one['preguntas']) {
+      listaPreguntas.add(Preguntas(id: word['id'], versiculo: word['versiculo']));
+    }*/
+
+    /*for(Map i in parsedJson){
+      listPreguntas.add(i);
+    }*/
+
+    /*List<Preguntas> prgs = new List<Preguntas>();
     for (Map word in one['preguntas']) {
       prgs.add(new Preguntas(id: word['id'], versiculo: word['versiculo']));
-    }
+    }*/
 /*
     List<Leccion> data = new List<Leccion>();
     for (Map words in one[Leccion]) {
@@ -56,13 +88,11 @@ class ListaDatos {
       ));
     }*/
 
-    /*List asad = data[0].preguntas.toList();
-    print("ASDASDAS");
-    print(prgs);
-    print(Preguntas().pregunta);*/
+    //List asad = data[0].preguntas.toList();
 
     return new ListaDatos(
       dato: data,
+      prg:listaPreguntass,
     );
   }
 }
@@ -71,8 +101,8 @@ class Leccion {
   final String id;
   final String leccion;
   final String titulo;
-  final Preguntas preguntas;
-  final Hacer hacer;
+  final List<dynamic> preguntas;
+  final List<Hacer> hacer;
   //final List adicional;
 
   Leccion({
@@ -85,29 +115,37 @@ class Leccion {
   });
 
   factory Leccion.fromJson(Map<String, dynamic> parsedJson) {
-    /*var listP = parsedJson['preguntas'] as List;
-    var listH = parsedJson['hacer'] as List;
+    var listsPreguntas = parsedJson['preguntas'] as List;
+    //var listP = parsedJson['preguntas'] as List;
+    //var listP = List<dynamic>();
+    //var listH = parsedJson['hacer'] as List;
 
-    List<Preguntas> preguntasList =
-        listP.map((i) => Preguntas.fromJson(i)).toList();
-    List<Hacer> hacerList = listH.map((i) => Hacer.fromJson(i)).toList();*/
+    //List<Preguntas> preguntasList = listP.map((i) => Preguntas.fromJson(i)).toList();
+    //List<Hacer> hacerList = listH.map((i) => Hacer.fromJson(i)).toList();
 
-    return Leccion(
+    return new Leccion(
       id: parsedJson['id'],
       leccion: parsedJson['leccion'],
       titulo: parsedJson['titulo'],
-      preguntas: Preguntas.fromJson(parsedJson['preguntas']),
-      hacer: Hacer.fromJson(parsedJson['hacer']),
+      preguntas: listsPreguntas,
+      //preguntas: Preguntas.fromJson(parsedJson['preguntas']),
+      //preguntas: preguntasList,
+      //hacer: Hacer.fromJson(parsedJson['hacer']),
+      //hacer: hacerList,
       //adicional: json['adicional']
     );
   }
 
-  Map<String, dynamic> toJson() => {
-        'id': id,
-        'leccion': leccion,
-        'titulo': titulo,
-        'preguntas': preguntas,
-        'hacer': hacer,
-        // 'adicional': adicional
-      };
+  Map<String, dynamic> toJson() {
+    var map = <String, dynamic>{
+      'id': id,
+      'leccion': leccion,
+      'titulo' : titulo,
+      'preguntas' : preguntas,
+      'hacer' : hacer,
+    };
+
+    return map;
+  }
+
 }

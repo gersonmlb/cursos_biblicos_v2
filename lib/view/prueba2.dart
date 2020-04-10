@@ -1,6 +1,9 @@
 import 'package:lafedejesus/utils/imports.dart';
 
 class ChewieAudioDemo extends StatefulWidget {
+  final String linkAudio;
+  ChewieAudioDemo({this.linkAudio}) : super();
+
   @override
   State<StatefulWidget> createState() {
     return _ChewieDemoState();
@@ -15,7 +18,7 @@ class _ChewieDemoState extends State<ChewieAudioDemo> {
   void initState() {
     super.initState();
     _videoPlayerController1 = VideoPlayerController.network(
-        'https://www.w3schools.com/tags/horse.mp3');
+        "${widget.linkAudio}");
     _chewieAudioController = ChewieAudioController(
       videoPlayerController: _videoPlayerController1,
       autoPlay: true,

@@ -13,7 +13,7 @@ Widget traerTitulo(BuildContext context, double width, double height,
                     left: width / 2.9, right: width / 9, top: height / 30),
                 child: Text(
                   //Aqui logra traer el titulo de la leccion
-                  snapshot.data.dato[0].titulo,
+                  snapshot.data.dato[number].titulo,
                   maxLines: 2,
                   textDirection: TextDirection.ltr,
                   textScaleFactor: 1,
@@ -62,7 +62,7 @@ Widget traerID(BuildContext context, double width, double height, int number,
                         quarterTurns: 1,
                         child: Text(
                           //Aqui logra traer el titulo de la leccion
-                          snapshot.data.dato[0].leccion,
+                          snapshot.data.dato[number].leccion,
                           //"05",
                           textScaleFactor: 1,
                           textAlign: TextAlign.center,
