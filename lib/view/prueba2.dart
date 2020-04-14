@@ -1,4 +1,4 @@
-import 'package:lafedejesus/utils/imports.dart';
+import 'package:lafedejesus/utilsAll/imports.dart';
 
 class ChewieAudioDemo extends StatefulWidget {
   final String linkAudio;

@@ -115,7 +115,8 @@
                 "rpt": ""
             }
         ],
-        "adicional": []
+        "adicional": [],
+        "estado": 1
     },
     {
         "_id": "lfdj02",
@@ -145,7 +146,8 @@
                 "rpt": ""
             }
         ],
-        "adicional": []
+        "adicional": [],
+        "estado": 0
     },
     {
         "_id": "lfdj03",
@@ -175,7 +177,8 @@
                 "rpt": ""
             }
         ],
-        "adicional": []
+        "adicional": [],
+        "estado": 0
     },
     {
         "_id": "lfdj04",
@@ -205,7 +208,8 @@
                 "rpt": ""
             }
         ],
-        "adicional": []
+        "adicional": [],
+        "estado": 0
     },
     {
         "_id": "lfdj05",
@@ -306,7 +310,7 @@
                 "versiculo": "S. Mateo 24:29",
                 "versover": "",
                 "prg": "¿QUÉ SENALES SE VERIAN EN LOS ASTROS?",
-                "rpt": "La luna se apagara, y las estrellas caeran"
+                "rpt": "La luna se oscurecera, y las estrellas caeran"
             }
         ],
         "hacer": [
@@ -329,7 +333,8 @@
                 "rpt": ""
             }
         ],
-        "adicional": []
+        "adicional": [],
+        "estado": 0
     },
     {
         "_id": "lfdj06",
@@ -359,7 +364,8 @@
                 "rpt": ""
             }
         ],
-        "adicional": []
+        "adicional": [],
+        "estado": 0
     },
     {
         "_id": "lfdj07",
@@ -389,7 +395,8 @@
                 "rpt": ""
             }
         ],
-        "adicional": []
+        "adicional": [],
+        "estado": 0
     },
     {
         "_id": "lfdj08",
@@ -419,7 +426,8 @@
                 "rpt": ""
             }
         ],
-        "adicional": []
+        "adicional": [],
+        "estado": 0
     },
     {
         "_id": "lfdj09",
@@ -449,7 +457,8 @@
                 "rpt": ""
             }
         ],
-        "adicional": []
+        "adicional": [],
+        "estado": 0
     },
     {
         "_id": "lfdj10",
@@ -479,7 +488,8 @@
                 "rpt": ""
             }
         ],
-        "adicional": []
+        "adicional": [],
+        "estado": 0
     },
     {
         "_id": "lfdj11",
@@ -509,7 +519,8 @@
                 "rpt": ""
             }
         ],
-        "adicional": []
+        "adicional": [],
+        "estado": 0
     },
     {
         "_id": "lfdj12",
@@ -539,7 +550,8 @@
                 "rpt": ""
             }
         ],
-        "adicional": []
+        "adicional": [],
+        "estado": 0
     },
     {
         "_id": "lfdj13",
@@ -569,7 +581,8 @@
                 "rpt": ""
             }
         ],
-        "adicional": []
+        "adicional": [],
+        "estado": 0
     },
     {
         "_id": "lfdj14",
@@ -599,7 +612,8 @@
                 "rpt": ""
             }
         ],
-        "adicional": []
+        "adicional": [],
+        "estado": 0
     },
     {
         "_id": "lfdj15",
@@ -629,7 +643,8 @@
                 "rpt": ""
             }
         ],
-        "adicional": []
+        "adicional": [],
+        "estado": 0
     },
     {
         "_id": "lfdj16",
@@ -659,7 +674,8 @@
                 "rpt": ""
             }
         ],
-        "adicional": []
+        "adicional": [],
+        "estado": 0
     },
     {
         "_id": "lfdj17",
@@ -689,7 +705,8 @@
                 "rpt": ""
             }
         ],
-        "adicional": []
+        "adicional": [],
+        "estado": 0
     },
     {
         "_id": "lfdj18",
@@ -719,7 +736,8 @@
                 "rpt": ""
             }
         ],
-        "adicional": []
+        "adicional": [],
+        "estado": 0
     },
     {
         "_id": "lfdj19",
@@ -749,7 +767,8 @@
                 "rpt": ""
             }
         ],
-        "adicional": []
+        "adicional": [],
+        "estado": 0
     },
     {
         "_id": "lfdj20",
@@ -779,6 +798,7 @@
                 "rpt": ""
             }
         ],
-        "adicional": []
+        "adicional": [],
+        "estado": 0
     }
 ]

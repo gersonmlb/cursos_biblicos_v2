@@ -1,4 +1,4 @@
-import 'package:lafedejesus/utils/imports.dart';
+import 'package:lafedejesus/utilsAll/imports.dart';
 
 Future<String> _cargarJson() async {
   return await rootBundle.loadString("assets/db.json");

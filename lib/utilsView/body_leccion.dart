@@ -1,4 +1,4 @@
-import 'package:lafedejesus/utils/imports.dart';
+import 'package:lafedejesus/utilsAll/imports.dart';
 
 Widget body(
     BuildContext context, double width, double height, int idL, var lista) {
@@ -9,13 +9,15 @@ Widget body(
           if (!snapshot.hasData) {
             return respuesta(width, height);
           } else {
-            int length = snapshot.data.prg.length;
+            int lengthPrg = snapshot.data.prg.length;
+            //int lengthHcr = snapshot.data.hcr.length;
+            //print(lengthHcr);
             return Container(
-              height: height,
+              height: height / 1.1,
               child: ListView.builder(
-                  itemCount: length,
-                  //scrollDirection: Axis.vertical,
+                  itemCount: lengthPrg,
                   itemBuilder: (BuildContext context, int i) {
+                    // Body preguntas
                     var id = snapshot.data.prg[i].id.toString();
                     var sub = snapshot.data.prg[i].subtitulo;
                     var prg = snapshot.data.prg[i].pregunta;
@@ -26,13 +28,17 @@ Widget body(
                     var nov = snapshot.data.prg[i].nomvideo;
                     var vid = snapshot.data.prg[i].video;
                     var rpt = snapshot.data.prg[i].respuesta;
-                    if (sub == '') {
-                      return body1(context, width, height, id, prg, ver, vev, noa, aud,
-                          nov, vid, rpt);
-                    } else {
-                      return body2(context, width, height, id, sub, prg, ver,
-                          vev, noa, aud, nov, vid, rpt);
-                    }
+                    return Column(
+                      children: <Widget>[
+                        body1(context, width, height, id, sub, prg, ver, vev,
+                            noa, aud, nov, vid, rpt),
+                        /*ListView.builder(
+                          itemCount: lengthHcr,
+                          itemBuilder: (BuildContext context, int i){
+                            Text("asdasd");
+                        })*/
+                      ],
+                    );
                   }),
             );
           }
@@ -41,38 +47,6 @@ Widget body(
 }
 
 Widget body1(
-    BuildContext context,
-    double width,
-    double height,
-    String id,
-    String prg,
-    String ver,
-    String vev,
-    String noa,
-    String aud,
-    String nov,
-    String vid,
-    String rpt) {
-  return Container(
-    width: width,
-    height: height / 6,
-    child: Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: <Widget>[
-        // Este es la pregunta
-        _pregunta(width, id, prg),
-
-        // Este es el area de items
-        _items(context, width, ver, vev, noa, aud, nov, vid),
-
-        // Este es la respuesta
-        _respuesta(context, width, rpt)
-      ],
-    ),
-  );
-}
-
-Widget body2(
     BuildContext context,
     double width,
     double height,
@@ -86,41 +60,59 @@ Widget body2(
     String nov,
     String vid,
     String rpt) {
+  if (sub == '') {
+    return Container(
+      width: width,
+      height: height / 6,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          // Este es la pregunta
+          _pregunta(width, id, prg),
+
+          // Este es el area de items
+          _items(context, width, ver, vev, noa, aud, nov, vid),
+
+          // Este es la respuesta
+          _respuesta(context, width, rpt)
+        ],
+      ),
+    );
+  } else {
+    return Container(
+      width: width,
+      height: height / 5.6,
+      margin: EdgeInsets.only(top: width / 30),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          // Subtitulo
+          _subtitulo(width, sub),
+
+          // Este es la pregunta
+          _pregunta(width, id, prg),
+
+          // Este es el area de items
+          _items(context, width, ver, vev, noa, aud, nov, vid),
+
+          // Este es la respuesta
+          _respuesta(context, width, rpt)
+        ],
+      ),
+    );
+  }
+}
+
+Widget bodyhacer(
+  int lengthHcr,
+  var sdads,
+) {
   return Container(
-    width: width,
-    height: height / 5.6,
-    margin: EdgeInsets.only(top: width / 30),
-    child: Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: <Widget>[
-        // Subtitulo
-        Container(
-          margin: EdgeInsets.only(left: width / 40),
-          child: Text(
-            sub,
-            softWrap: true,
-            textDirection: TextDirection.ltr,
-            style: TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.w500,
-              color: color1,
-              fontFamily: 'GochiHand',
-              textBaseline: TextBaseline.alphabetic,
-              height: 1,
-            ),
-          ),
-        ),
-        // Este es la pregunta
-        _pregunta(width, id, prg),
-
-        // Este es el area de items
-        _items(context, width, ver, vev, noa, aud, nov, vid),
-
-        // Este es la respuesta
-        _respuesta(context, width, rpt)
-      ],
-    ),
-  );
+      child: ListView.builder(
+          itemCount: lengthHcr,
+          itemBuilder: (BuildContext context, int i) {
+            return Text(sdads);
+          }));
 }
 
 // Widget sobre la Pregunta
@@ -217,6 +209,25 @@ Widget _respuesta(BuildContext context, double width, var rpt) {
       scrollPadding: EdgeInsets.all(20.0),
       decoration: InputDecoration(
         hintText: "Respuesta",
+      ),
+    ),
+  );
+}
+
+Widget _subtitulo(double width, String sub) {
+  return Container(
+    margin: EdgeInsets.only(left: width / 40),
+    child: Text(
+      sub,
+      softWrap: true,
+      textDirection: TextDirection.ltr,
+      style: TextStyle(
+        fontSize: 20,
+        fontWeight: FontWeight.w500,
+        color: color1,
+        fontFamily: 'GochiHand',
+        textBaseline: TextBaseline.alphabetic,
+        height: 1,
       ),
     ),
   );

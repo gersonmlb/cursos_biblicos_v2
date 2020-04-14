@@ -1,4 +1,4 @@
-import 'package:lafedejesus/utils/imports.dart';
+import 'package:lafedejesus/utilsAll/imports.dart';
 
 Widget traerTitulo(BuildContext context, double width, double height,
         int number, var lista) =>

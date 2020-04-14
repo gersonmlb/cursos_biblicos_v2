@@ -1,19 +1,14 @@
-import 'package:lafedejesus/utils/imports.dart';
+import 'package:lafedejesus/utilsAll/imports.dart';
 
 class LeccionView extends StatefulWidget {
-  LeccionView({Key key}) : super(key: key);
+  final int id;
+  LeccionView({Key key, this.id}) : super(key: key);
   _LeccionView createState() => _LeccionView();
 }
 
 class _LeccionView extends State<LeccionView> {
   Future<ListaDatos> _lista;
-  int number = 4;
-
-  // Son datos de pruebas
-  String vrs = "S. Mateo 24:3";
-  String prt = "¿QUÉ PREGUNTARON LOS DISCÍPULOS DE JESÚS?";
-  String vdo = "Video";
-  String ado = "Audio";
+  double height, width;
 
   @override
   void initState() {
@@ -21,16 +16,16 @@ class _LeccionView extends State<LeccionView> {
     _lista = cargarDatos();
   }
 
-  double height, width;
-
   @override
   Widget build(BuildContext context) {
+    int number = widget.id;
+    print(number);
     height = MediaQuery.of(context).size.height;
     width = MediaQuery.of(context).size.width;
 
     return Scaffold(
         appBar: AppBar(
-          flexibleSpace: _truehead(),
+          flexibleSpace: _truehead(number),
           backgroundColor: Colors.transparent,
           iconTheme: IconThemeData(
             color: color4,
@@ -40,10 +35,10 @@ class _LeccionView extends State<LeccionView> {
           child: body(context, width, height, 0, _lista),
           width: width,
           height: height,
-          ));
+        ));
   }
 
-  Widget _truehead() => Container(
+  Widget _truehead(int number) => Container(
         width: width,
         child: Stack(
           children: <Widget>[

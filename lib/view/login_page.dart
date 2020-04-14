@@ -1,4 +1,4 @@
-import 'package:lafedejesus/utils/imports.dart';
+import 'package:lafedejesus/utilsAll/imports.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -8,14 +8,14 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
-    final logo = Hero(
+    /*final logo = Hero(
       tag: 'hero',
       child: CircleAvatar(
         backgroundColor: Colors.transparent,
         radius: 48.0,
         //child: Image.asset('assets/logo.png'),
       ),
-    );
+    );*/
 
     final email = TextFormField(
       keyboardType: TextInputType.emailAddress,
@@ -46,7 +46,7 @@ class _LoginPageState extends State<LoginPage> {
           borderRadius: BorderRadius.circular(24),
         ),
         onPressed: () {
-          Navigator.of(context).pushNamed('home_page');
+          Navigator.of(context).pushNamed('inicio_page');
         },
         padding: EdgeInsets.all(12),
         color: Colors.lightBlueAccent,
@@ -69,7 +69,7 @@ class _LoginPageState extends State<LoginPage> {
           shrinkWrap: true,
           padding: EdgeInsets.only(left: 24.0, right: 24.0),
           children: <Widget>[
-            logo,
+            //logo,
             SizedBox(height: 48.0),
             email,
             SizedBox(height: 8.0),
