@@ -21,10 +21,12 @@ export 'package:lafedejesus/model/preguntas.dart';
 
 export 'package:lafedejesus/utilsView/alert.dart';
 export 'package:lafedejesus/utilsView/body_home.dart';
+export 'package:lafedejesus/utilsView/body_hacer.dart';
+export 'package:lafedejesus/utilsView/home_cards.dart';
 export 'package:lafedejesus/utilsView/head_drawer.dart';
 export 'package:lafedejesus/utilsView/head_leccion.dart';
 export 'package:lafedejesus/utilsView/body_leccion.dart';
-export 'package:lafedejesus/utilsView/home_cards.dart';
+export 'package:lafedejesus/utilsView/body_preguntas.dart';
 
 export 'package:lafedejesus/utilsAll/colors.dart';
 export 'package:lafedejesus/utilsAll/ui_helper.dart';
