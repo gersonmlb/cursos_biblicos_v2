@@ -7,11 +7,12 @@ export 'package:flutter/services.dart' show rootBundle;
 
 export 'package:lafedejesus/presenter/router.dart';
 export 'package:lafedejesus/presenter/leccion_presenter.dart';
-export 'package:lafedejesus/presenter/list_swipingCardImages.dart';
+export 'package:lafedejesus/presenter/home_cardImages.dart';
 
 export 'package:lafedejesus/view/home_page.dart';
 export 'package:lafedejesus/view/login_page.dart';
 export 'package:lafedejesus/view/inicio_page.dart';
+export 'package:lafedejesus/view/leccion_page.dart';
 
 export 'package:lafedejesus/model/hacer.dart';
 export 'package:lafedejesus/model/leccion.dart';
@@ -23,7 +24,7 @@ export 'package:lafedejesus/utilsView/body_home.dart';
 export 'package:lafedejesus/utilsView/head_drawer.dart';
 export 'package:lafedejesus/utilsView/head_leccion.dart';
 export 'package:lafedejesus/utilsView/body_leccion.dart';
-export 'package:lafedejesus/utilsView/parallax_cards.dart';
+export 'package:lafedejesus/utilsView/home_cards.dart';
 
 export 'package:lafedejesus/utilsAll/colors.dart';
 export 'package:lafedejesus/utilsAll/ui_helper.dart';

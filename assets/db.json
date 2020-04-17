@@ -6,7 +6,7 @@
         "preguntas": [
             {
                 "id": 1,
-                "subtitulo": "¿CUÁNDO VENDRÁ?",
+                "subtitulo": "DIOS",
                 "nomaudio": "",
                 "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",
@@ -54,7 +54,7 @@
             },
             {
                 "id": 5,
-                "subtitulo": "",
+                "subtitulo": "Dios y el Hombre",
                 "nomaudio": "",
                 "audio": "https://www.w3schools.com/tags/horse.mp3",
                 "nomvideo": "",

@@ -28,6 +28,7 @@ flutter:
 
   assets:
     - assets/db.json
+    - assets/imagenes/
 
   fonts:
       - family: Nunito

@@ -12,7 +12,7 @@ class _HomePage extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    _listaLeccion = cargarDatos();
+    _listaLeccion = cargarDatos2();
   }
 
   @override
@@ -22,6 +22,7 @@ class _HomePage extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text("La fé de Jesus"),
+        backgroundColor: color1,
       ),
       body: cardClass(context, height, _listaLeccion),
     );

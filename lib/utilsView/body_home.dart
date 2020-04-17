@@ -1,5 +1,4 @@
 import 'package:lafedejesus/utilsAll/imports.dart';
-import 'package:lafedejesus/view/leccion_page.dart';
 
 Widget cardClass(BuildContext context, double heigth, var listaLeccion) {
   return SingleChildScrollView(
@@ -15,10 +14,8 @@ Widget cardClass(BuildContext context, double heigth, var listaLeccion) {
                 child: ListView.builder(
                     itemCount: lengthLst,
                     itemBuilder: (BuildContext context, int i) {
-                      print("1: "+i.toString());
                       return item(context, snapshot.data.dato[i].leccion,
-                          snapshot.data.dato[i].titulo,
-                          i);
+                          snapshot.data.dato[i].titulo, i);
                     }),
               );
             }
@@ -26,7 +23,6 @@ Widget cardClass(BuildContext context, double heigth, var listaLeccion) {
 }
 
 Widget item(BuildContext context, String id, String titulo, int idL) {
-  print("2: "+idL.toString());
   return ClipRRect(
     borderRadius: BorderRadius.circular(4.0),
     child: Card(
@@ -36,17 +32,19 @@ Widget item(BuildContext context, String id, String titulo, int idL) {
           border: Border(
             left: BorderSide(
               width: 4.0,
-              color: Colors.blue,
+              color: color1,
             ),
           ),
         ),
         child: InkWell(
           onTap: () {
-            print("3: "+idL.toString());
-            MaterialPageRoute(
-                builder: (context) => LeccionView(
-                      id:idL,
-                    ));
+            print("3: " + idL.toString());
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) => LeccionView(
+                          id: idL,
+                        )));
           },
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -57,18 +55,28 @@ Widget item(BuildContext context, String id, String titulo, int idL) {
                 child: Container(
                     margin:
                         EdgeInsets.symmetric(vertical: 16.0, horizontal: 8.0),
-                    child: Text(id + " - " + titulo)),
+                    child: Text(
+                      id + "  " + titulo,
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.w500,
+                        color: ShadowColors.dark,
+                        fontFamily: 'GochiHand',
+                        textBaseline: TextBaseline.alphabetic,
+                        height: 1,
+                      ),
+                    )),
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Icon(
                   Icons.chevron_right,
-                  color: Colors.blue,
+                  color: color1,
                 ),
               ),
             ],
           ),
-          splashColor: Colors.blue,
+          splashColor: color1,
         ),
       ),
     ),

@@ -1,13 +1,13 @@
 import 'package:lafedejesus/utilsAll/imports.dart';
 
-class ParallaxCards extends StatelessWidget {
-  ParallaxCards({
+class HomeCards extends StatelessWidget {
+  HomeCards({
     @required this.item,
     @required this.pageVisibility,
     @required this.url,
   });
 
-  final ParallaxCardItem item;
+  final HomeCardImages item;
   final PageVisibility pageVisibility;
   final String url;
 

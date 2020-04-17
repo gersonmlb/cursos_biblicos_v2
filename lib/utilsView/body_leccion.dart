@@ -28,17 +28,24 @@ Widget body(
                     var nov = snapshot.data.prg[i].nomvideo;
                     var vid = snapshot.data.prg[i].video;
                     var rpt = snapshot.data.prg[i].respuesta;
-                    return Column(
+
+                    if (i == lengthPrg) {
+                      return body1(context, width, height, id, sub, prg, ver,
+                          vev, noa, aud, nov, vid, rpt);
+                    } else {
+                      return body1(context, width, height, id, sub, prg, ver,
+                          vev, noa, aud, nov, vid, rpt);
+                    }
+                    
+                    /*return Column(
                       children: <Widget>[
-                        body1(context, width, height, id, sub, prg, ver, vev,
-                            noa, aud, nov, vid, rpt),
                         /*ListView.builder(
                           itemCount: lengthHcr,
                           itemBuilder: (BuildContext context, int i){
                             Text("asdasd");
                         })*/
                       ],
-                    );
+                    );*/
                   }),
             );
           }
@@ -174,7 +181,6 @@ Widget _items(BuildContext context, double width, var ver, var vev, var noa,
               ),
               onTap: () {
                 showAlertDialogVideo(context, vid);
-                //Navigator.of(context).pushNamed('pruebas');
               },
             )),
 
@@ -188,9 +194,7 @@ Widget _items(BuildContext context, double width, var ver, var vev, var noa,
                 color: color1,
               ),
               onTap: () {
-                showAlertDialogAudio(
-                    context, 1, "https://www.w3schools.com/tags/horse.mp3");
-                //Navigator.of(context).pushNamed('pruebas2');
+                showAlertDialogAudio(context, 1, aud);
               },
             )),
       ],

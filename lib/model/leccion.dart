@@ -7,23 +7,31 @@ class ListaDatos {
 
   ListaDatos({this.dato, this.prg, this.hcr});
 
-  factory ListaDatos.fromJson(List<dynamic> parsedJson) {
-    
+  factory ListaDatos.fromJson(List<dynamic> parsedJson, int number) {
     List<Leccion> data = new List<Leccion>();
     data = parsedJson.map((i) => Leccion.fromJson(i)).toList();
 
-    List prgs = data[4].preguntas;
+    List prgs = data[number].preguntas;
     List<Preguntas> listaPreguntas = new List<Preguntas>();
-    listaPreguntas = prgs.map((i)=> Preguntas.fromJson(i)).toList();
+    listaPreguntas = prgs.map((i) => Preguntas.fromJson(i)).toList();
 
-    List hcrs = data[4].hacer;
+    List hcrs = data[number].hacer;
     List<Hacer> listaHacer = new List<Hacer>();
-    listaHacer = hcrs.map((i)=> Hacer.fromJson(i)).toList();
+    listaHacer = hcrs.map((i) => Hacer.fromJson(i)).toList();
 
     return new ListaDatos(
       dato: data,
       prg: listaPreguntas,
       hcr: listaHacer,
+    );
+  }
+
+  factory ListaDatos.fromJson2(List<dynamic> parsedJson) {
+    List<Leccion> data = new List<Leccion>();
+    data = parsedJson.map((i) => Leccion.fromJson(i)).toList();
+
+    return new ListaDatos(
+      dato: data,
     );
   }
 }
@@ -48,12 +56,6 @@ class Leccion {
   factory Leccion.fromJson(Map<String, dynamic> parsedJson) {
     var listsPreguntas = parsedJson['preguntas'] as List;
     var listaHacer = parsedJson['hacer'] as List;
-    //var listP = parsedJson['preguntas'] as List;
-    //var listP = List<dynamic>();
-    //var listH = parsedJson['hacer'] as List;
-
-    //List<Preguntas> preguntasList = listP.map((i) => Preguntas.fromJson(i)).toList();
-    //List<Hacer> hacerList = listH.map((i) => Hacer.fromJson(i)).toList();
 
     return new Leccion(
       id: parsedJson['_id'],
@@ -68,5 +70,4 @@ class Leccion {
       //adicional: json['adicional']
     );
   }
-
 }

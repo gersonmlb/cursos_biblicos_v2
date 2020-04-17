@@ -13,13 +13,12 @@ class _LeccionView extends State<LeccionView> {
   @override
   void initState() {
     super.initState();
-    _lista = cargarDatos();
+    _lista = cargarDatos(widget.id);
   }
 
   @override
   Widget build(BuildContext context) {
-    int number = widget.id;
-    print(number);
+    int number = int.parse('${widget.id}');
     height = MediaQuery.of(context).size.height;
     width = MediaQuery.of(context).size.width;
 
