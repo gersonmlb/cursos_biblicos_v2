@@ -43,15 +43,17 @@ void showAlertDialogVersiculo(BuildContext context, int id,String vers, String v
             borderRadius: BorderRadius.circular(10.0),
           ),
           content: Container(
-            child: Text(
-              verv,
-              style: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.w100,
-                color: color3,
-                fontFamily: 'Acme',
-                textBaseline: TextBaseline.alphabetic,
-                height: 1.1,
+            child: SingleChildScrollView(
+              child: Text(
+                verv,
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.w100,
+                  color: color3,
+                  fontFamily: 'Acme',
+                  textBaseline: TextBaseline.alphabetic,
+                  height: 1.1,
+                ),
               ),
             ),
           ),

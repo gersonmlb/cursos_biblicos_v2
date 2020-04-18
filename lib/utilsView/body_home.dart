@@ -6,7 +6,7 @@ Widget cardClass(BuildContext context, double heigth, var listaLeccion) {
           future: listaLeccion,
           builder: (context, AsyncSnapshot snapshot) {
             if (!snapshot.hasData) {
-              return Text("ASADSA");
+              return Loading(heigth: heigth,);
             } else {
               int lengthLst = snapshot.data.dato.length;
               return Container(

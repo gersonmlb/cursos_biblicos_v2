@@ -12,6 +12,7 @@ dependencies:
 
   chewie_audio:
   video_player:
+  flutter_spinkit:
   sleek_circular_slider:
   flutter_swiper: ^1.1.6
   cupertino_icons: ^0.1.2

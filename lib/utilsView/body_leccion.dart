@@ -7,7 +7,7 @@ Widget body(
         future: lista,
         builder: (context, AsyncSnapshot snapshot) {
           if (!snapshot.hasData) {
-            return respuesta(width, height);
+            return Loading();
           } else {
             int lengthPrg = snapshot.data.prg.length;
             int lengthHcr = snapshot.data.hcr.length;
@@ -33,17 +33,17 @@ Widget body(
                       print("Llego al i == length");
                       lllll = Text("sdadasdadsas");
                     }
-                    
+
                     return Column(
                       children: <Widget>[
                         bodyPreguntas(context, width, height, id, sub, prg, ver,
                             vev, noa, aud, nov, vid, rpt),
-                        Container(
+                        /*Container(
                           child: ListView.builder(
                             itemCount: lengthHcr
 
                           ),
-                        )
+                        )*/
                       ],
                     );
 
