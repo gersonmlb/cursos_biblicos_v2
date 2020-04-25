@@ -38,7 +38,6 @@ Widget item(BuildContext context, String id, String titulo, int idL) {
         ),
         child: InkWell(
           onTap: () {
-            print("3: " + idL.toString());
             Navigator.push(
                 context,
                 MaterialPageRoute(
