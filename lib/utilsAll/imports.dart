@@ -39,7 +39,6 @@ export 'package:chewie_audio/chewie_audio.dart';
 export 'package:video_player/video_player.dart';
 export 'package:flutter_spinkit/flutter_spinkit.dart';
 export 'package:gradient_widgets/gradient_widgets.dart';
-export 'package:sleek_circular_slider/sleek_circular_slider.dart';
 
 
 

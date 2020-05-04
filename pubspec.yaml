@@ -10,20 +10,38 @@ dependencies:
   flutter:
     sdk: flutter
 
-  chewie_audio:
-  video_player:
-  flutter_spinkit:
-  sleek_circular_slider:
-  flutter_swiper: ^1.1.6
+  #Iconos
   cupertino_icons: ^0.1.2
+  
+  #Estilo de texto
   gradient_widgets: ^0.5.0
+
+  #Pluging Audio
+  chewie_audio:
+  
+  #Plugin Video
+  video_player:
+  
+  #Loading
+  flutter_spinkit:
+  
+  #Programacion - Bloc
+  flutter_bloc: ^4.0.0
+  equatable: ^1.0.0
+  meta: ^1.1.6
+  shared_preferences: ^0.5.5
+
+  #Plugin para el icono de la app
   flutter_launcher_icons: ^0.7.4
+
+
 
 dev_dependencies:
   http: 
   flutter_test:
     sdk: flutter
 
+#Icono de la app
 flutter_icons:
   image_path: "assets/imagenes/icono-app.png"
   android: true 
@@ -37,9 +55,6 @@ flutter:
     - assets/imagenes/
 
   fonts:
-      - family: Nunito
-        fonts:
-          - asset: assets/fonts/Nunito.ttf
 
       - family: GochiHand
         fonts:
@@ -52,7 +67,3 @@ flutter:
       - family: Acme
         fonts:
           - asset: assets/fonts/Acme-Regular.ttf
-
-      - family: Caveat
-        fonts:
-          - asset: assets/fonts/Caveat-Regular.ttf
