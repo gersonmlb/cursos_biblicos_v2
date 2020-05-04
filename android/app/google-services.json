@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "970661195440",
+    "firebase_url": "https://cursos-biblicos-v2.firebaseio.com",
+    "project_id": "cursos-biblicos-v2",
+    "storage_bucket": "cursos-biblicos-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970661195440:android:13405a52b428b59a51d575",
+        "android_client_info": {
+          "package_name": "com.conectados.cursos_biblicos_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970661195440-hthtbi14s447nv5ekimj4hjruh5scd3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMEuZVZwUJjWLz9iqfrSU7VYe7qNTNwWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970661195440-hthtbi14s447nv5ekimj4hjruh5scd3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

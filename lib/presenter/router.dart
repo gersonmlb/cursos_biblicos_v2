@@ -1,7 +1,5 @@
 import 'package:lafedejesus/utilsAll/imports.dart';
-import 'package:lafedejesus/view/leccion_page.dart';
-import 'package:lafedejesus/view/prueba2.dart';
-import 'package:lafedejesus/view/pruebas.dart';
+import 'package:lafedejesus/view/inicio_page.dart';
 
 Map<String, WidgetBuilder> getAplicationRoutes(BuildContext context) {
   return <String, WidgetBuilder>{

@@ -11,8 +11,9 @@ export 'package:lafedejesus/presenter/leccion_presenter.dart';
 
 export 'package:lafedejesus/view/home_page.dart';
 export 'package:lafedejesus/view/login_page.dart';
-export 'package:lafedejesus/view/inicio_page.dart';
 export 'package:lafedejesus/view/leccion_page.dart';
+export 'package:lafedejesus/view/audio_leccion.dart';
+export 'package:lafedejesus/view/video_leccion.dart';
 
 export 'package:lafedejesus/model/hacer.dart';
 export 'package:lafedejesus/model/leccion.dart';
@@ -39,7 +40,6 @@ export 'package:video_player/video_player.dart';
 export 'package:flutter_spinkit/flutter_spinkit.dart';
 export 'package:gradient_widgets/gradient_widgets.dart';
 export 'package:sleek_circular_slider/sleek_circular_slider.dart';
-
 
 
 

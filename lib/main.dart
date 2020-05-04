@@ -13,11 +13,6 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: LoginPage(),
-      /*onGenerateRoute:(settings){
-        return MaterialPageRoute(
-          builder: (BuildContext context ) => LoginPage(),
-        );
-      },*/
     );
   }
 }

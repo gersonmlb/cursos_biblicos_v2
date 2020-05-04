@@ -1,8 +1,7 @@
 import 'package:lafedejesus/utilsAll/imports.dart';
-import 'package:lafedejesus/view/prueba2.dart';
-import 'package:lafedejesus/view/pruebas.dart';
 
-void showAlertDialogVersiculo(BuildContext context, int id,String vers, String verv) {
+void showAlertDialogVersiculo(
+    BuildContext context, int id, String vers, String verv) {
   showDialog(
       context: context,
       builder: (buildcontext) {
@@ -74,7 +73,8 @@ void showAlertDialogVersiculo(BuildContext context, int id,String vers, String v
       });
 }
 
-void showAlertDialogVideo(BuildContext context, String video){//int id, String video) {
+void showAlertDialogVideo(BuildContext context, String video) {
+  //int id, String video) {
   showDialog(
       context: context,
       builder: (buildcontext) {
@@ -95,8 +95,10 @@ void showAlertDialogVideo(BuildContext context, String video){//int id, String v
             borderRadius: BorderRadius.circular(10.0),
           ),
           content: Container(
-            child: VideoPlayerScreen(linkVideo: video,),
-            height:400,
+            child: VideoPlayerScreen(
+              linkVideo: video,
+            ),
+            height: 235,
           ),
           actions: <Widget>[
             RaisedButton(
@@ -135,7 +137,12 @@ void showAlertDialogAudio(BuildContext context, int id, String audio) {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(10.0),
           ),
-          content:Container(child: ChewieAudioDemo(linkAudio: audio,), height: 20,),
+          content: Container(
+            child: ChewieAudioDemo(
+              linkAudio: audio,
+            ),
+            height: 20,
+          ),
           actions: <Widget>[
             RaisedButton(
               child: Text(
@@ -153,3 +160,38 @@ void showAlertDialogAudio(BuildContext context, int id, String audio) {
       });
 }
 
+void showAlertDialogFailed(BuildContext context) {
+  showDialog(
+      context: context,
+      builder: (buildcontext) {
+        return AlertDialog(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(10.0),
+          ),
+          content: Container(
+            height: 100,
+            padding: EdgeInsets.all(10),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
+                Icon(Icons.sentiment_dissatisfied, size: 60,),
+                Text("Curso Biblico en proceso..."),
+              ],
+            ),
+          ),
+          actions: <Widget>[
+            RaisedButton( 
+              child: Text(
+                "CERRAR",
+                style: TextStyle(color: Colors.white),
+              ),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+              color: color4,
+            )
+          ],
+          backgroundColor: Colors.white,
+        );
+      });
+}

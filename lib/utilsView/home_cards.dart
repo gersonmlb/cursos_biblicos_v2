@@ -1,15 +1,18 @@
 import 'package:lafedejesus/utilsAll/imports.dart';
+import 'package:lafedejesus/view/base64.dart';
 
 class HomeCards extends StatelessWidget {
   HomeCards({
     @required this.item,
     @required this.pageVisibility,
     @required this.url,
+    @required this.estado
   });
 
   final HomeCardImages item;
   final PageVisibility pageVisibility;
   final String url;
+  final int estado;
 
   Widget _applyTextEffects({
     @required double translationFactor,
@@ -121,8 +124,12 @@ class HomeCards extends StatelessWidget {
           ),
         ),
       ),
-      onTap: (){
-        Navigator.of(context).pushNamed(url);
+      onTap: () {
+        if (estado == 1) {
+          Navigator.of(context).pushNamed(url);
+        } else {
+          Base64();
+        }
       },
     );
   }

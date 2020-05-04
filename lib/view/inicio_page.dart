@@ -8,6 +8,7 @@ class InicioPage extends StatefulWidget {
 class _InicioPageState extends State<InicioPage> {
   double height, width;
 
+
   @override
   Widget build(BuildContext context) {
     height = MediaQuery.of(context).size.height;
@@ -15,6 +16,9 @@ class _InicioPageState extends State<InicioPage> {
     return Scaffold(
       backgroundColor: Colors.transparent,
       body: Container(
+        width: width,
+        height: height,
+        margin: EdgeInsets.only(bottom: 5),
         decoration: BoxDecoration(
           gradient: LinearGradient(
               // Gradient colors change according to set theme
@@ -31,29 +35,26 @@ class _InicioPageState extends State<InicioPage> {
             Padding(
               padding: EdgeInsets.only(
                 left: 10.0,
-                top: height/16,
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: <Widget>[
-                  GradientText(
-                    'Cursos Biblicos',
-                    shaderRect: Rect.fromLTWH(0.0, 0.0, 50.0, 50.0),
-                    gradient: isThemeCurrentlyDark(context)
-                        ? Gradients.coldLinear
-                        : Gradients
-                            .haze, //gradient colors change according to set theme
-                    style: isThemeCurrentlyDark(context)
-                        ? TitleStylesDefault.white
-                        : TitleStylesDefault.black,
+                  Container(
+                    margin: EdgeInsets.only(top: 30),
+                    child: Text(
+                      "Cursos Biblicos",
+                      style: TextStyle(
+                          fontStyle: FontStyle.italic,
+                          color: Colors.white,
+                          fontSize: 25,
+                          fontWeight: FontWeight.bold),
+                    ),
                   ),
                 ],
               ),
             ),
-            Padding(
-              padding: EdgeInsets.only(bottom: 30.0),
+            Expanded(
               child: SizedBox.fromSize(
-                size: Size.fromHeight(height / 1.15),
                 child: PageTransformer(
                   pageViewBuilder: (context, visibilityResolver) {
                     return PageView.builder(
@@ -64,10 +65,12 @@ class _InicioPageState extends State<InicioPage> {
                         final url = parallaxCardItemsList[index].url;
                         final pageVisibility =
                             visibilityResolver.resolvePageVisibility(index);
+                        final state = parallaxCardItemsList[index].estado;
                         return HomeCards(
                           item: item,
                           pageVisibility: pageVisibility,
                           url: url,
+                          estado: state,
                         );
                       },
                     );

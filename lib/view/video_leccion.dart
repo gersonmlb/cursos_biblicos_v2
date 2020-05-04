@@ -18,12 +18,10 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
   @override
   void initState() {
     if ("${widget.linkVideo}" == "") {
-      print("No tiene nada");
       _controller = VideoPlayerController.network(
         'https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4',
       );
     } else {
-      print("SI llego");
       _controller = VideoPlayerController.network("${widget.linkVideo}");
     }
 
@@ -45,8 +43,8 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
   Widget build(BuildContext context) {
     return Container(
         // AQUI VA A TENER QUE SER CAMBIADO POR EL WIDTH Y HEIGTH
-        width: 300,
-        height: 600,
+        width: 400,
+        height: 800,
         child: Column(children: <Widget>[
           FutureBuilder(
             future: _initializeVideoPlayerFuture,
