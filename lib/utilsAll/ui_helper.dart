@@ -11,6 +11,7 @@ bool isIOS(BuildContext context) {
     return false;
   }
 } // check if android or ios
+// Esto check 
 
 bool isThemeCurrentlyDark(BuildContext context) {
   if (Theme.of(context).brightness == Brightness.dark) {
